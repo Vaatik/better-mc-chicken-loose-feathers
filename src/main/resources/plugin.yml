@@ -1,4 +1,11 @@
-name: ChickenShedder
-version: 1.2.3
-main: io.github.vaatik.chickenshedder.ChickenShedder
-api-version: '1.21.5'
+name: ${name}
+version: ${version}
+main: com.bettermc.chickenloosefeathers.ChickenLooseFeathersPlugin
+api-version: '1.21'
+description: Chickens drop feathers when laying eggs
+author: Vaatik
+
+commands:
+  chickenfeather:
+    description: Chicken Loose Feathers commands
+    usage: /<command> reload
