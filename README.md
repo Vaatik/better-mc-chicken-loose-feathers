@@ -12,7 +12,7 @@ No more killing chickens for feathers!
 
 ## Requirements
 
-- Minecraft 26.2+
+- Minecraft 26.1+
 - Paper/Spigot server
 - Java 25
 
