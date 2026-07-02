@@ -1,7 +1,7 @@
 name: ${name}
 version: ${version}
 main: com.bettermc.chickenloosefeathers.ChickenLooseFeathersPlugin
-api-version: '1.21'
+api-version: '26.2'
 description: Chickens drop feathers when laying eggs
 author: Vaatik
 
@@ -9,3 +9,9 @@ commands:
   chickenfeather:
     description: Chicken Loose Feathers commands
     usage: /<command> reload
+    permission: chickenfeather.admin
+
+permissions:
+  chickenfeather.admin:
+    description: Allows reloading the plugin configuration
+    default: op
